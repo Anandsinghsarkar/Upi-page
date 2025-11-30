@@ -1,0 +1,11 @@
+# inside the folder that contains upi.html
+git init
+git add upi.html
+git commit -m "Add UPI page"
+# replace the <URL> with the repository URL shown on GitHub after you created it
+# it will be something like: https://github.com/your-username/upi-page.git
+git remote add origin https://github.com/your-username/upi-page.git
+
+# push to GitHub main branch
+git branch -M main
+git push -u origin main
